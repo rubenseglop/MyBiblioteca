@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mi Biblioteca</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">Mi biblioteca</string>
+    <string name="nav_header_subtitle">por Fco. Rubén Segura</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="domicilio">Domicilio:</string>
+    <string name="prestamo">Préstamo</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="prestamo_a_cliente">Préstamo a cliente:</string>
+
+</resources>

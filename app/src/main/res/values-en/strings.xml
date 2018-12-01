@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Biblioteca</string>
+    <string name="nombre">First name</string>
+    <string name="apellidos">Second name</string>
+    <string name="domicilio">Street</string>
+    <string name="prestamo">Loan</string>
+    <string name="prestamo_a_cliente">Loan to reader</string>
+    <string name="nav_header_title" translatable="false">My Biblioteca</string>
+    <string name="nav_header_subtitle" translatable="false">by Fco. Rubén Segura</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" android:background="@color/colorAccent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:background="@color/colorAccent">
+
+        <TextView
+                android:id="@+id/textViewDNI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20sp" android:textStyle="bold"/>
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView3" android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/textViewNombre"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+
+
+                        android:text=""
+                        android:textSize="15sp"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/apellidos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView4" android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/textViewApellidos"
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="15sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/ivPortada2"
+                    android:layout_height="70dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop" android:layout_weight="1" android:layout_width="60dp"
+                    android:contentDescription="TODO"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textViewTitulo2" android:layout_weight="1"/>
+        </LinearLayout>
+        <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+        />
+
+    </LinearLayout>
+
+</FrameLayout>
