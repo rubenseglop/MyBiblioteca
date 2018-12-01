@@ -14,5 +14,7 @@
     <string name="prestamo">Préstamo</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="prestamo_a_cliente">Préstamo a cliente:</string>
+    <string name="ver_pr_stamos">Ver préstamos</string>
+    <string name="pr_stamo_de_libros">Préstamo de libros</string>
 
 </resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ver_pr_stamos">Ver préstamos</string>
+    <string name="pr_stamo_de_libros">Préstamo de libros</string>
+</resources>

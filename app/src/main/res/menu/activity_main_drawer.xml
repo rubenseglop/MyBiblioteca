@@ -10,29 +10,29 @@
                 android:title="Mi biblioteca"/>-->
         <item
                 android:id="@+id/nav_gallery"
-                android:icon="@drawable/ic_menu_gallery"
+                android:icon="@drawable/lcthree"
                 android:title="Ver Catálogo"/>
         <!---<item
                android:id="@+id/nav_slideshow"
                android:icon="@drawable/ic_menu_slideshow"
                android:title="Slideshow"/>-->
-       <item
-               android:id="@+id/nav_lectores"
-               android:icon="@drawable/ic_menu_manage"
-               android:title="Lectores"/>
+        <item
+                android:id="@+id/nav_lectores"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Lectores"/>
     </group>
 
-    <item android:title="Communicate">
-       <menu>
-           <item
-                   android:id="@+id/nav_manage"
-                   android:icon="@drawable/ic_menu_share"
-                   android:title="Ver préstamos"/>
-           <!--- <item
+    <item android:title="@string/pr_stamo_de_libros">
+        <menu>
+            <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/ver_pr_stamos"/>
+            <!--- <item
                    android:id="@+id/nav_send"
                    android:icon="@drawable/ic_menu_send"
                    android:title="Send"/>-->
-       </menu>
+        </menu>
     </item>
 
 </menu>

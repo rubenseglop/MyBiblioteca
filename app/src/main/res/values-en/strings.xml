@@ -8,4 +8,6 @@
     <string name="prestamo_a_cliente">Loan to reader</string>
     <string name="nav_header_title" translatable="false">My Biblioteca</string>
     <string name="nav_header_subtitle" translatable="false">by Fco. Rubén Segura</string>
+    <string name="ver_pr_stamos">Search Loans</string>
+    <string name="pr_stamo_de_libros">Préstamo de libros</string>
 </resources>
